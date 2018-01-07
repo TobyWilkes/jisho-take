@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",        // path to output directory
+        "sourceMap": true,          // allow sourcemap support
+        "strictNullChecks": false,   // enable strict null checks as a best practice
+        "module": "es6",            // specifiy module code generation
+        "target": "es6",            // specify ECMAScript target version
+        "allowJs": true,             // allow a partial TypeScript and JavaScript codebase  
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": false,
+        "noEmitOnError": true
+    },
+    "include": [
+        "./src/"
+    ],
+    "types": [
+        "firefox-webext-browser"
+    ]
+}

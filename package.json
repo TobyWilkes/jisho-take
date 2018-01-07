@@ -1,0 +1,35 @@
+{
+  "name": "jisho-take",
+  "version": "1.0.0",
+  "description": "A firefox extension that adds a 'add to library' button to jisho words, and a panel for managing and exporting csv files after study sessions",
+  "main": "borderify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Toby Wilkes",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "0.0.57",
+    "@types/firefox-webext-browser": "^58.0.1",
+    "@types/jquery": "^3.2.17",
+    "@types/node": "^8.5.5",
+    "awesome-typescript-loader": "^3.4.1",
+    "jquery": "^3.2.1",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TobyWilkes/jisho-take.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TobyWilkes/jisho-take/issues"
+  },
+  "homepage": "https://github.com/TobyWilkes/jisho-take#readme"
+}

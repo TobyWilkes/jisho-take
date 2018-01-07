@@ -1,0 +1,39 @@
+{
+
+  "manifest_version": 2,
+  "name": "Jisho Take",
+  "version": "1.0",
+
+  "description": "Takes stuff from jisho",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/beasts-32.png",
+    "default_title": "Jisho",
+    "default_popup": "popup/index.html"
+  },
+
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.jisho.org/*"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "background": {
+    "scripts": [
+        "background.js"
+    ]
+  }
+
+}
+
